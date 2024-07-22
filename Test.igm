@@ -5,7 +5,7 @@
       {
         "name": "root",
         "sshAuthorizedKeys": [
-          "ssh-rsa ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIISl12mpycBU7F8NOX4DV/viECh0QIQ+IjG7dw2CbZLQ JuiceSSH"
+          "ssh-rsa VOTRE_CLE_SSH_PUBLIQUE_ICI"
         ]
       }
     ]
