@@ -9,16 +9,5 @@
         ]
       }
     ]
-  },
-  "storage": {
-    "files": [
-      {
-        "path": "/etc/ssh/sshd_config",
-        "contents": {
-          "source": "data:,PermitRootLogin%20prohibit-password%0APasswordAuthentication%20no%0AChallengeResponseAuthentication%20no"
-        },
-        "mode": 420
-      }
-    ]
   }
 }
