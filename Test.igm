@@ -3,7 +3,7 @@
   "passwd": {
     "users": [
       {
-        "name": "core",
+        "name": "root",
         "sshAuthorizedKeys": [
           "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIISl12mpycBU7F8NOX4DV/viECh0QIQ+IjG7dw2CbZLQ"
         ]
