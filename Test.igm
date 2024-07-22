@@ -1,0 +1,24 @@
+{
+  "ignition": { "version": "3.3.0" },
+  "passwd": {
+    "users": [
+      {
+        "name": "root",
+        "sshAuthorizedKeys": [
+          "ssh-rsa ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIISl12mpycBU7F8NOX4DV/viECh0QIQ+IjG7dw2CbZLQ JuiceSSH"
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "files": [
+      {
+        "path": "/etc/ssh/sshd_config",
+        "contents": {
+          "source": "data:,PermitRootLogin%20prohibit-password%0APasswordAuthentication%20no%0AChallengeResponseAuthentication%20no"
+        },
+        "mode": 420
+      }
+    ]
+  }
+}
